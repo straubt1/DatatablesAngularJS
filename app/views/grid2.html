@@ -1,0 +1,8 @@
+<button ng-click="updateTable()" type="button" class="btn btn-info">
+            <i class="fa fa-refresh"></i>&nbsp;Reload data
+        </button>
+
+<p class="text-danger">
+        The DataTable instance ID is: <strong>{{ vm.dtInstance2.id }}</strong>
+    </p>
+<table datatable="" class="row-border hover table-full" dt-options="dtOptions" dt-columns="dtColumns" dt-instance="vm.dtInstance2" width="100%"></table>
